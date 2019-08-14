@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+    <name>Sonic_Fshipping</name>
+    <version>1.0.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Sonic Free Shipping enables the free shipping option for multiple or individual specific customers.</summary>
+    <description>&lt;h2&gt;Overview&lt;/h2&gt;&#xD;
+&#xD;
+The module allows you to apply free shipping on specific customers. It adds a multi select option that contains a list with all store customers in Free Shipping module settings. You can select one or multiple customers that will always get free shipping option.&#xD;
+&lt;br /&gt;&lt;br /&gt;&#xD;
+&lt;h2&gt;Usage&lt;/h2&gt;&#xD;
+&#xD;
+All you need to do is:&#xD;
+&lt;br /&gt;&lt;br /&gt;&#xD;
+- Install the module - the installation is simple and straightforward. Extract the archive and copy the directory called &amp;quot;app&amp;quot; to your Magento root directory. It contains all the files of the module.&#xD;
+&lt;br /&gt;&lt;br /&gt;&#xD;
+- Select customers that will get free shipping.&#xD;
+&lt;br /&gt;&lt;br /&gt;&#xD;
+- You can also set the price for the remaining non selected customers.</description>
+    <notes>This is the version 1.0.0.1 stable release.</notes>
+    <authors><author><name>Tanuj Pandey</name><user>TanujP</user><email>tanuj.d.pandey@gmail.com</email></author></authors>
+    <date>2015-05-03</date>
+    <time>07:43:43</time>
+    <contents><target name="magecommunity"><dir name="Sonic"><dir name="Fshipping"><dir name="Model"><file name="Carrier.php" hash="a501c08bf97f0f9458b0d0a3ecd57917"/></dir><dir name="etc"><file name="config.xml" hash="e5db89324fb65946f5c0782d941ee811"/><file name="system.xml" hash="e5362dbfc64229e61108e516ff4c95ba"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sonic_Fshipping.xml" hash="300fdf75cdbc51db31e3d5485ab32db8"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.6.0</max></php><package><name>Mage_Shipping_Modules</name><channel>community</channel><min>1.5.0.0</min><max>1.9.1.0</max></package></required></dependencies>
+</package>
