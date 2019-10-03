@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Sonic_Fshipping",
+    "name": "openmage-module-fostering\/sonic_fshipping",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Sonic Free Shipping enables the free shipping option for multiple or individual specific customers.",
     "authors": [
